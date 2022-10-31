@@ -1,7 +1,7 @@
 <template>
   <main>
-    <h1>Task Board</h1>
-    <p>Create a list of tasks</p>
+    
+    <TaskHeading MainHeading="~This is a Task List~" />
 
     <div class="create-new">
       <input 
@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import TaskHeading from '~/components/TaskHeading.vue';
 export default {
   data (){
     return {
